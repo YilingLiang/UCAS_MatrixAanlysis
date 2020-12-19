@@ -66,4 +66,4 @@ if __name__ == "__main__":
         [3, 4, 5]
     ])
     m, n = M.shape
-    print(rank_of_matrix(M, m, n), np.linalg.matrix_rank(M))
+    print(rank_of_matrix(M), np.linalg.matrix_rank(M))
